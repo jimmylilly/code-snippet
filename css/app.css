@@ -1,0 +1,102 @@
+/* ::: Custom property colors
+ *  **************************************************/
+:root {
+    --c-black: #333333;
+    --c-white: #f7f7f7;
+}
+
+
+/* ::: Normalize
+ **************************************************/
+* {
+    font-family: 'lucida grande', verdana, helvetica, arial, sans-serif;
+    font-size: 12pt;
+}
+body {
+    background-color: var(--c-white);
+    color: var(--c-black);
+}
+html, body, th, td {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+table {
+    border-spacing: 0px;
+    width: 100%;
+}
+canvas {
+    display: block;
+}
+
+
+/* ::: General Settings
+ **************************************************/
+
+/* ---> Text Alignment */
+.left {
+    text-align: left !important;
+}
+.center {
+    text-align: center !important;
+}
+.right {
+    text-align: right !important;
+}
+
+/* ---> Miscellaneous */
+.clearfloat {
+    clear: both;
+}
+.templates {
+    display: none;
+}
+.bold {
+    font-weight: bold;
+}
+
+#loading {
+    display: none;
+}
+
+
+/* ::: Container
+ **************************************************/
+div.container {
+    margin: 25px;
+    padding: 20px;
+    background-color: var(--c-white);
+    border: 1px solid var(--c-black);
+    border-radius: 25px;
+}
+
+
+/* ::: Sign
+ **************************************************/
+#sign th, #sign td {
+    padding: 4px;
+}
+#sign th {
+    text-decoration: underline;
+}
+
+#sign td.spinner {
+    width: 32px;
+}
+#sign td.spinner div {
+    height: 20px;
+}
+#sign td.pane_name {
+    width: 175px;
+}
+#sign td.filename {
+}
+#sign td.duration {
+    width: 110px;
+}
+#sign td.elapsed {
+    width: 110px;
+}
+#sign td.remaining {
+    width: 110px;
+}

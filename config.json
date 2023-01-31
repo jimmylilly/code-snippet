@@ -1,0 +1,5 @@
+{
+    "debug": false,
+    "cgi_timeout": 30000,
+    "signage_polltime": 30000
+}

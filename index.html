@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pane Information</title>
+    <base href="paneinfo" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="version" content="1.0.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+    <script type="text/javascript" src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <table id="sign">
+        <tr>
+            <td class="spinner">
+                <div><img id="loading" src="img/loading.gif" /></div>
+            </td>
+            <td class="bold">Sign</td>
+            <td class="sign_name">&nbsp;</td>
+            <td colspan="3">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan="6">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <th>Pane</th>
+            <th>Filename</th>
+            <th>Duration</th>
+            <th>Elapsed</th>
+            <th>Remaining</th>
+        </tr>
+    </table>
+
+</div>
+
+<div class="templates">
+    <table id="pane_templ">
+        <tr data-pane_name="" class="pane">
+            <td>&nbsp;</td>
+            <td class="pane_name"></td>
+            <td class="filename"></td>
+            <td class="duration"></td>
+            <td class="elapsed"></td>
+            <td class="remaining"></td>
+        </tr>
+    </table>
+</div>
+
+</body></html>
